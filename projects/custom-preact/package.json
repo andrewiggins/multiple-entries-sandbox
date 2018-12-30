@@ -1,0 +1,21 @@
+{
+  "name": "custom-preact",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "module": "dist/custom-preact.mjs",
+  "main": "dist/custom-preact.js",
+  "umd:main": "dist/custom-preact.umd.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "run-p build:*",
+    "build:core": "microbundle build --raw --compress=false",
+    "build:hooks": "cd ./hooks && microbundle build --raw --compress=false && cd ../"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.9.0",
+    "npm-run-all": "*"
+  }
+}

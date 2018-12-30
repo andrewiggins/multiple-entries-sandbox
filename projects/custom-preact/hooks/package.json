@@ -1,0 +1,11 @@
+{
+  "name": "hooks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "module": "dist/hooks.mjs",
+  "main": "dist/hooks.js",
+  "umd:main": "dist/hooks.umd.js",
+  "types": "src/index.d.ts"
+}

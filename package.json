@@ -1,0 +1,14 @@
+{
+  "name": "multiple-entries",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "projects/*"
+  ]
+}
