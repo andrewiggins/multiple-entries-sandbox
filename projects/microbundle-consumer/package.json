@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "custom-preact": "^1.0.0"
+    "custom-preact": "^1.0.0",
+    "microbundle": "^0.9.0"
   }
 }
