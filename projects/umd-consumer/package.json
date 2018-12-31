@@ -7,7 +7,7 @@
     "build": "echo umd-consumer doesn't have a build step"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "workspaces": {
     "nohoist": [
       "custom-preact"

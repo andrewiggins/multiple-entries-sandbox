@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "custom-preact": "^1.0.0"
   },

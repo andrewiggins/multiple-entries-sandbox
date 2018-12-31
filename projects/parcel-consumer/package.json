@@ -7,7 +7,7 @@
     "start": "parcel src/index.html"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
   }

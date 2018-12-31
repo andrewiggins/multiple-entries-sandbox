@@ -7,7 +7,7 @@
     "build": "echo commonjs-consumer doesn't have a build step"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "custom-preact": "^1.0.0"
   }
