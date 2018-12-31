@@ -8,26 +8,6 @@
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
   </head>
   <body>
-    <ul id="log"></ul>
-
-    <script type="text/javascript">
-      // utilities.js
-
-      const logList = document.getElementById("log");
-      function appendLog(msg) {
-        const li = document.createElement("li");
-        li.textContent = msg;
-        logList.appendChild(li);
-      }
-
-      const originalLog = console.log;
-      function log(...msgs) {
-        appendLog(msgs.join(" "));
-        originalLog.apply(console, msgs);
-      }
-
-      console.log = log;
-    </script>
     <script src="index.js"></script>
   </body>
 </html>

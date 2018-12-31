@@ -1,3 +1,4 @@
+import "./logger";
 import { name as customPreact } from "custom-preact";
 import { name as hooks } from "custom-preact/hooks";
 
