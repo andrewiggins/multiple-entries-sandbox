@@ -1,0 +1,19 @@
+{
+  "name": "rollup-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "module": "dist/rollup-consumer.mjs",
+  "main": "dist/rollup-consumer.js",
+  "umd:main": "dist/rollup-consumer.umd.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "custom-preact": "^1.0.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
