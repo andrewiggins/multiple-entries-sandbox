@@ -1,0 +1,17 @@
+{
+  "name": "typescript-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "custom-preact": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
