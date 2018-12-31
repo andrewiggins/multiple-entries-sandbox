@@ -9,37 +9,9 @@
     <!-- <script src="main.js"></script> -->
   </head>
   <body>
-    <ul id="log"></ul>
-
-    <script type="text/javascript">
-      // utilities.js
-
-      const logList = document.getElementById("log");
-      function appendLog(msg) {
-        const li = document.createElement("li");
-        li.textContent = msg;
-        logList.appendChild(li);
-      }
-
-      const originalLog = console.log;
-      function log(...msgs) {
-        appendLog(msgs.join(" "));
-        originalLog.apply(console, msgs);
-      }
-
-      console.log = log;
-    </script>
+    <script src="src/logger.js"></script>
     <script src="node_modules/custom-preact/dist/custom-preact.umd.js"></script>
     <script src="node_modules/custom-preact/hooks/dist/hooks.umd.js"></script>
-    <script type="text/javascript">
-      // main.js
-      var { name: customPreact } = customPreact;
-      var { name: hooks } = hooks;
-
-      var name = "umd-consumer: index.html";
-      console.log("executing", name);
-      console.log("using", customPreact);
-      console.log("using", hooks);
-    </script>
+    <script src="src/index.js"></script>
   </body>
 </html>
