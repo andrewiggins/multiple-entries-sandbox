@@ -2,7 +2,6 @@
 
 ## TODO
 
-- Add webpack consumer
 - Add parcel consumer
 - Document how prototype works and the results
   - Describe how custom-preact mimics how preact distro could look
