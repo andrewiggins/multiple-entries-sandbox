@@ -1,0 +1,19 @@
+{
+  "name": "umd-consumer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "echo umd-consumer doesn't have a build step"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "nohoist": [
+      "custom-preact"
+    ]
+  },
+  "dependencies": {
+    "custom-preact": "^1.0.0"
+  }
+}
