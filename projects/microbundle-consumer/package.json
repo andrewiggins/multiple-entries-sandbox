@@ -8,7 +8,7 @@
   "umd:main": "dist/microbundle-consumer.umd.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "build": "microbundle --compress=false"
+    "build": "microbundle --no-compress"
   },
   "author": "",
   "license": "ISC",

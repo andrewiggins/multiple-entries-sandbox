@@ -9,8 +9,8 @@
   "types": "src/index.d.ts",
   "scripts": {
     "build": "run-p build:*",
-    "build:core": "microbundle build --raw --compress=false",
-    "build:hooks": "cd ./hooks && microbundle build --raw --compress=false && cd ../"
+    "build:core": "microbundle build --raw --no-compress",
+    "build:hooks": "cd ./hooks && microbundle build --raw --no-compress && cd ../"
   },
   "author": "",
   "license": "ISC",
