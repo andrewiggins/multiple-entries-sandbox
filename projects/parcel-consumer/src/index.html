@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Parcel consumer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+  </head>
+  <body>
+    <ul id="log"></ul>
+
+    <script type="text/javascript">
+      // utilities.js
+
+      const logList = document.getElementById("log");
+      function appendLog(msg) {
+        const li = document.createElement("li");
+        li.textContent = msg;
+        logList.appendChild(li);
+      }
+
+      const originalLog = console.log;
+      function log(...msgs) {
+        appendLog(msgs.join(" "));
+        originalLog.apply(console, msgs);
+      }
+
+      console.log = log;
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
