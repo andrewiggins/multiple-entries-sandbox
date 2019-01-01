@@ -7,5 +7,14 @@
   "module": "dist/hooks.mjs",
   "main": "dist/hooks.js",
   "umd:main": "dist/hooks.umd.js",
-  "types": "src/index.d.ts"
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "microbundle build --raw --no-compress"
+  },
+  "dependencies": {
+    "custom-preact": "^1.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.9.0"
+  }
 }

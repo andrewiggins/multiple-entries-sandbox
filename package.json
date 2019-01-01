@@ -8,6 +8,7 @@
   "repository": "https://github.com/andrewiggins/multiple-entires-sandbox.git",
   "workspaces": [
     "custom-preact",
+    "custom-preact/hooks",
     "sample-projects/*"
   ]
 }
