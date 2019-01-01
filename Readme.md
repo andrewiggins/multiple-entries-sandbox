@@ -9,10 +9,19 @@
 1. Inspect the output (the `dist` folders) of each project to understand how it
    handled bundling the `custom-preact` project
 
-## TODO
+## What are "multiple entries"
 
-- Document how prototype works and the results
-  - Describe how custom-preact mimics how preact distro could look
-  - Describe how I'm using yarn workspaces to mimic how a consumers would
-    consume the custom-preact project
-  - Add hypthosis about why this technique works
+In this sandbox, I'm playing with
+
+- Single npm package contiaining multiple "nested" npm packages
+- Not really nested, explained later
+
+## Repo Setup
+
+- Explain how the repo is setup
+- Describe how I'm using yarn workspaces to mimic how a consumers would
+  consume the custom-preact project
+
+## How it works
+
+- Describe the npm resolution algorithm
