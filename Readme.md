@@ -74,6 +74,10 @@ properly tree-shook.
 
 - When separate packages for different parts may be too heavy handed (TODO: Expand)
 
+## Downsides
+
+- Since all entries share the same package.json, they share a common dependency list which may not work for some projects. For example, people value Preact having no dependencies where it might be important for preact-render-to-string to have some dependencies so perhaps preact-render-to-string should stay its own package.
+
 ## TODO
 
 - Expand explanation of how projects consume `custom-preact` and how the algorithm walks applies to
