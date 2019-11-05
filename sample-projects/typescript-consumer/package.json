@@ -12,6 +12,6 @@
     "custom-preact": "^1.0.0"
   },
   "devDependencies": {
-    "typescript": "^3.2.2"
+    "typescript": "^3.7.2"
   }
 }
