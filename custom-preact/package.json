@@ -13,6 +13,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.12.0-beta.6"
   }
 }
