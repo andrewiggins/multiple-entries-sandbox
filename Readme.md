@@ -1,3 +1,5 @@
+**NOTE: This repo is archived because I don't want to get security alerts for it anymore. Obviously, feel free to fork and continue using if you'd like.**
+
 # Multiple Entries Prototype
 
 ## Getting started
